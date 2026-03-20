@@ -1,163 +1,166 @@
 # 拉取 nginx 的多个版本
 # 可用的 Nginx 版本（截至 2024 年）
 # 注意：DockerHub 通常只保留最近的几个版本
-nginx:1.29.6
-nginx:1.29.5
-nginx:1.29.4
-nginx:1.29.3
-nginx:1.29.2
-nginx:1.29.1
-nginx:1.29.0
-nginx:1.28.2
-nginx:1.28.1
-nginx:1.28.0
-nginx:1.27.5
-nginx:1.27.4
-nginx:1.27.3
-nginx:1.27.2
-nginx:1.27.1
-nginx:1.27.0
-nginx:1.26.3
-nginx:1.26.2
-nginx:1.26.1
-nginx:1.26.0
-nginx:1.25.5
-nginx:1.25.4
-nginx:1.25.3
-nginx:1.25.2
-nginx:1.25.1
-nginx:1.25.0
-nginx:1.24.0
-nginx:1.23.4
-nginx:1.23.3
-nginx:1.23.2
-nginx:1.23.1
-nginx:1.23.0
+# nginx:1.29.6
+# nginx:1.29.5
+# nginx:1.29.4
+# nginx:1.29.3
+# nginx:1.29.2
+# nginx:1.29.1
+# nginx:1.29.0
+# nginx:1.28.2
+# nginx:1.28.1
+# nginx:1.28.0
+# nginx:1.27.5
+# nginx:1.27.4
+# nginx:1.27.3
+# nginx:1.27.2
+# nginx:1.27.1
+# nginx:1.27.0
+# nginx:1.26.3
+# nginx:1.26.2
+# nginx:1.26.1
+# nginx:1.26.0
+# nginx:1.25.5
+# nginx:1.25.4
+# nginx:1.25.3
+# nginx:1.25.2
+# nginx:1.25.1
+# nginx:1.25.0
+# nginx:1.24.0
+# nginx:1.23.4
+# nginx:1.23.3
+# nginx:1.23.2
+# nginx:1.23.1
+# nginx:1.23.0
 
 # Alpine 版本通常更少
-nginx:1.29.6-alpine
-nginx:1.28.2-alpine
-nginx:1.27.5-alpine
-nginx:1.26.3-alpine
-nginx:1.25.5-alpine
-nginx:1.24.0-alpine
+# nginx:1.29.6-alpine
+# nginx:1.28.2-alpine
+# nginx:1.27.5-alpine
+# nginx:1.26.3-alpine
+# nginx:1.25.5-alpine
+# nginx:1.24.0-alpine
 
 # 最新版本标签
-nginx:latest
-nginx:alpine
-nginx:alpine3.20
+# nginx:latest
+# nginx:alpine
+# nginx:alpine3.20
 
 # 拉取 Redis 的多个版本
 # 可用的 Redis 版本（截至当前查询）
-redis:8.6.1
-redis:8.6
-redis:8
-redis:8.6.1-trixie
-redis:8.6-trixie
-redis:8-trixie
-redis:latest
-redis:trixie
-redis:8.6.1-alpine
-redis:8.6-alpine
-redis:8-alpine
-redis:8.6.1-alpine3.23
-redis:8.6-alpine3.23
-redis:8-alpine3.23
-redis:alpine
-redis:alpine3.23
-redis:8.4.2
-redis:8.4
-redis:8.4.2-trixie
-redis:8.4-trixie
-redis:8.4.2-alpine
-redis:8.4-alpine
-redis:8.4.2-alpine3.22
-redis:8.4-alpine3.22
-redis:8.2.5
-redis:8.2
-redis:8.2.5-bookworm
-redis:8.2-bookworm
-redis:8.2.5-alpine
-redis:8.2-alpine
-redis:8.2.5-alpine3.22
-redis:8.2-alpine3.22
-redis:8.0.6
-redis:8.0
-redis:8.0.6-bookworm
-redis:8.0-bookworm
-redis:8.0.6-alpine
-redis:8.0-alpine
-redis:8.0.6-alpine3.21
-redis:8.0-alpine3.21
-redis:7.4.8
-redis:7.4
-redis:7
-redis:7.4.8-bookworm
-redis:7.4-bookworm
-redis:7-bookworm
-redis:7.4.8-alpine
-redis:7.4-alpine
-redis:7-alpine
-redis:7.4.8-alpine3.21
-redis:7.4-alpine3.21
-redis:7-alpine3.21
-redis:7.2.13
-redis:7.2
-redis:7.2.13-bookworm
-redis:7.2-bookworm
-redis:7.2.13-alpine
-redis:7.2-alpine
-redis:7.2.13-alpine3.21
-redis:7.2-alpine3.21
-redis:6.2.21
-redis:6.2
-redis:6
-redis:6.2.21-bookworm
-redis:6.2-bookworm
-redis:6-bookworm
-redis:6.2.21-alpine
-redis:6.2-alpine
-redis:6-alpine
-redis:6.2.21-alpine3.21
-redis:6.2-alpine3.21
-redis:6-alpine3.21
-
+# redis:8.6.1
+# redis:8.6
+# redis:8
+# redis:8.6.1-trixie
+# redis:8.6-trixie
+# redis:8-trixie
+# redis:latest
+# redis:trixie
+# redis:8.6.1-alpine
+# redis:8.6-alpine
+# redis:8-alpine
+# redis:8.6.1-alpine3.23
+# redis:8.6-alpine3.23
+# redis:8-alpine3.23
+# redis:alpine
+# redis:alpine3.23
+# redis:8.4.2
+# redis:8.4
+# redis:8.4.2-trixie
+# redis:8.4-trixie
+# redis:8.4.2-alpine
+# redis:8.4-alpine
+# redis:8.4.2-alpine3.22
+# redis:8.4-alpine3.22
+# redis:8.2.5
+# redis:8.2
+# redis:8.2.5-bookworm
+# redis:8.2-bookworm
+# redis:8.2.5-alpine
+# redis:8.2-alpine
+# redis:8.2.5-alpine3.22
+# redis:8.2-alpine3.22
+# redis:8.0.6
+# redis:8.0
+# redis:8.0.6-bookworm
+# redis:8.0-bookworm
+# redis:8.0.6-alpine
+# redis:8.0-alpine
+# redis:8.0.6-alpine3.21
+# redis:8.0-alpine3.21
+# redis:7.4.8
+# redis:7.4
+# redis:7
+# redis:7.4.8-bookworm
+# redis:7.4-bookworm
+# redis:7-bookworm
+# redis:7.4.8-alpine
+# redis:7.4-alpine
+# redis:7-alpine
+# redis:7.4.8-alpine3.21
+# redis:7.4-alpine3.21
+# redis:7-alpine3.21
+# redis:7.2.13
+# redis:7.2
+# redis:7.2.13-bookworm
+# redis:7.2-bookworm
+# redis:7.2.13-alpine
+# redis:7.2-alpine
+# redis:7.2.13-alpine3.21
+# redis:7.2-alpine3.21
+# redis:6.2.21
+# redis:6.2
+# redis:6
+# redis:6.2.21-bookworm
+# redis:6.2-bookworm
+# redis:6-bookworm
+# redis:6.2.21-alpine
+# redis:6.2-alpine
+# redis:6-alpine
+# redis:6.2.21-alpine3.21
+# redis:6.2-alpine3.21
+# redis:6-alpine3.21
 
 # 拉取 MySQL 的多个版本
-# 可用的 MySQL 版本（官方镜像，常见标签）
-mysql:9.1.0
-mysql:9.1
+# 可用的 MySQL 版本（官方镜像，最新版本）
+mysql:9.6.0
+mysql:9.6
 mysql:9
-mysql:9.1.0-oracle
-mysql:9.1-oracle
-mysql:9-oracle
+mysql:innovation
 mysql:latest
+mysql:9.6.0-oraclelinux9
+mysql:9.6-oraclelinux9
+mysql:9-oraclelinux9
+mysql:innovation-oraclelinux9
+mysql:oraclelinux9
+mysql:9.6.0-oracle
+mysql:9.6-oracle
+mysql:9-oracle
+mysql:innovation-oracle
 mysql:oracle
-mysql:9.1.0-debian
-mysql:9.1-debian
-mysql:9-debian
-mysql:debian
-mysql:8.4.3
+mysql:8.4.8
 mysql:8.4
 mysql:8
-mysql:8.4.3-oracle
+mysql:lts
+mysql:8.4.8-oraclelinux9
+mysql:8.4-oraclelinux9
+mysql:8-oraclelinux9
+mysql:lts-oraclelinux9
+mysql:8.4.8-oracle
 mysql:8.4-oracle
 mysql:8-oracle
-mysql:8.4.3-debian
-mysql:8.4-debian
-mysql:8-debian
-mysql:8.0.39
+mysql:lts-oracle
+mysql:8.0.45
 mysql:8.0
-mysql:8.0.39-oracle
+mysql:8.0.45-oraclelinux9
+mysql:8.0-oraclelinux9
+mysql:8.0.45-oracle
 mysql:8.0-oracle
-mysql:8.0.39-debian
+mysql:8.0.45-bookworm
+mysql:8.0-bookworm
+mysql:8.0.45-debian
 mysql:8.0-debian
-mysql:5.7.45
-mysql:5.7
-mysql:5
-mysql:5.7.45-debian
-mysql:5.7-debian
-mysql:5-debian
 
 # 拉取 FastDFS 的多个版本
 # 可用的 FastDFS 版本（常用社区镜像）
