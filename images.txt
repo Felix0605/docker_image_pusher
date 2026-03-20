@@ -47,7 +47,6 @@ nginx:1.29.6
 # 拉取 Redis 的多个版本
 redis:7.2.0
 redis:7.2.1
-redis:6.2
 
 
 #支持私库
