@@ -162,63 +162,6 @@ mysql:8.0-bookworm
 mysql:8.0.45-debian
 mysql:8.0-debian
 
-# 拉取 FastDFS 的多个版本
-# 可用的 FastDFS 版本（常用社区镜像）
-season/fastdfs:8.08
-season/fastdfs:8.0
-season/fastdfs:latest
-season/fastdfs:8.08-alpine
-season/fastdfs:8.0-alpine
-season/fastdfs:alpine
-delron/fastdfs:8.08
-delron/fastdfs:8.0
-delron/fastdfs:latest
-delron/fastdfs:8.08-alpine
-delron/fastdfs:8.0-alpine
-delron/fastdfs:alpine
-# 整合了 Nginx 的 FastDFS 镜像 (常见组合)
-season/fastdfs:8.08-nginx
-season/fastdfs:8.0-nginx
-season/fastdfs:nginx
-delron/fastdfs:8.08-nginx
-delron/fastdfs:8.0-nginx
-delron/fastdfs:nginx
-
-# 拉取 RocketMQ 的多个版本
-# 可用的 RocketMQ 版本（官方及常用镜像）
-# NameServer 镜像
-rocketmqinc/rocketmq:5.3.2
-rocketmqinc/rocketmq:5.3
-rocketmqinc/rocketmq:5
-rocketmqinc/rocketmq:5.3.2-alpine
-rocketmqinc/rocketmq:5.3-alpine
-rocketmqinc/rocketmq:5-alpine
-rocketmqinc/rocketmq:4.9.7
-rocketmqinc/rocketmq:4.9
-rocketmqinc/rocketmq:4
-rocketmqinc/rocketmq:4.9.7-alpine
-rocketmqinc/rocketmq:4.9-alpine
-rocketmqinc/rocketmq:4-alpine
-rocketmqinc/rocketmq:latest
-# 独立的 Broker 镜像 (部分版本)
-rocketmqinc/rocketmq-broker:5.3.2
-rocketmqinc/rocketmq-broker:5.3
-rocketmqinc/rocketmq-broker:5
-rocketmqinc/rocketmq-broker:4.9.7
-rocketmqinc/rocketmq-broker:4.9
-rocketmqinc/rocketmq-broker:4
-# 独立的 NameServer 镜像 (部分版本)
-rocketmqinc/rocketmq-namesrv:5.3.2
-rocketmqinc/rocketmq-namesrv:5.3
-rocketmqinc/rocketmq-namesrv:5
-rocketmqinc/rocketmq-namesrv:4.9.7
-rocketmqinc/rocketmq-namesrv:4.9
-rocketmqinc/rocketmq-namesrv:4
-# 控制台 Console
-apacherocketmq/rocketmq-dashboard:1.0.1
-apacherocketmq/rocketmq-dashboard:1.0
-apacherocketmq/rocketmq-dashboard:latest
-
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
